@@ -20,7 +20,6 @@ int main (int argc, char** argv)
 	cout << "tail: " << list1.tail->value << endl; 
 	
 	cout << "This is how to call value, it's from 100 -> 50 -> 30 -> 20. The output is 20: " << list1.head->next->next->next->value << endl;
-	//cout << list1.head->next->next->next->value << endl;	
 	list1.printAll();
 	
 	LinkedList list2;
